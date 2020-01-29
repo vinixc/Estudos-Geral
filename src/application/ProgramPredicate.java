@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.function.Predicate;
 
 import entities.Product1;
-import util.ProductPredicate;
 
 public class ProgramPredicate {
 	
