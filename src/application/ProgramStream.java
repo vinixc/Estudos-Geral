@@ -19,6 +19,7 @@ public class ProgramStream {
 		Stream<Integer> st3 = Stream.iterate(0, x -> x + 2);
 		System.out.println(Arrays.toString(st3.limit(10).toArray()));
 		
+		//Sequencia fibonacci
 		Stream<Long> st4 = Stream.iterate(
 				new Long[] {0L,1L}, p -> new Long[] {p[1], p[0] + p[1]}).map(p -> p[0]);
 		
